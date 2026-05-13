@@ -1,0 +1,10 @@
+{
+  "name": "Zenon Games",
+  "description": "A high-performance portal for unblocked web games with a sleek neon aesthetic.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}

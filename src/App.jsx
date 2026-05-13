@@ -1,9 +1,9 @@
 import { useState, useMemo } from 'react';
 import { motion } from 'motion/react';
-import Navbar from './components/Navbar.js';
-import GameCard from './components/GameCard.js';
-import GameView from './components/GameView.js';
-import { games } from './data/games.js';
+import Navbar from './components/Navbar';
+import GameCard from './components/GameCard';
+import GameView from './components/GameView';
+import { games } from './data/games';
 import { Flame, Trophy, Clock } from 'lucide-react';
 
 export default function App() {

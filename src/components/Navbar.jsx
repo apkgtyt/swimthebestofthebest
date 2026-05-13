@@ -9,7 +9,7 @@ export default function Navbar({ searchQuery, setSearchQuery }) {
           initial={{ x: -20, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           className="flex items-center gap-2 cursor-pointer"
-          onClick={() => window.location.href = '/'}
+          onClick={() => window.location.href = './'}
         >
           <div className="p-2 bg-cyan-500 rounded-lg">
             <Gamepad2 className="w-6 h-6 text-black" />
